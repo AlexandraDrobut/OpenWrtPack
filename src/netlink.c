@@ -19,6 +19,7 @@ char buf[8192];
 
 struct {
 struct nlmsghdr nl;
+
 struct rtmsg rt;
 char buf[8000];
 }req;
